@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+body {
+  margin: 30px;
+  padding-left: 12px;
+}
+
+#question {
+  width: 100%;
+  height: 60px;
+  border-left-style: solid;
+  border-left-color: gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px;
+  box-shadow:rgb(24, 20, 20)
+}
+#answer {
+  background-color: yellow ;
+  width: 100%;
+  height: 60px;
+  border-left-style: solid;
+  border-left-color: gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 15px;
+  box-shadow:rgb(24, 20, 20)
+}
